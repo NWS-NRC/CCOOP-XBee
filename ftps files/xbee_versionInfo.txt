@@ -1,0 +1,8 @@
+v0.08
+main.py,/flash,1
+simple.py,/flash/lib/umqtt,1
+uftp.py,/flash/lib/uftp,1
+server.crt,/flash/cert,1
+key.crt,/flash/cert,1
+cert.crt,/flash/cert,1
+software.bin,/flash,1
