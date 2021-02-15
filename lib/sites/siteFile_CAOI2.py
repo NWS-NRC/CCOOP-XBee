@@ -1,0 +1,18 @@
+import time
+import sys
+
+class pubTopic:
+  #-----topics
+  
+  SUB_TOPIC = "NWS/#"
+  COMMAND_TOPIC = "NWS/CRH/PAH/COOP/CAOI2/COMMAND"
+  TEMP_PUB_TOPIC = "NWS/CRH/PAH/COOP/CAOI2/TEMP"
+  PRECIP_PUB_TOPIC = "NWS/CRH/PAH/COOP/CAOI2/PRECIP"
+  DAILY_PUB_TOPIC = "NWS/CRH/PAH/COOP/CAOI2/DAILY"
+  MESSAGE_TOPIC = "NWS/CRH/PAH/COOP/CAOI2/MSG"
+  UPDATE_TOPIC = "NWS/CRH/PAH/COOP/CAOI2/UPDATE"
+  ALERT_TOPIC = "NWS/CRH/PAH/COOP/CAOI2/ALERT"
+  clientID = "CAOI2"
+  clientTZ = "-6"
+  atOb_T = "7"
+  server_Address = "sftp.crh.noaa.gov"

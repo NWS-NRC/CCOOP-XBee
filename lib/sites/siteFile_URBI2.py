@@ -1,0 +1,18 @@
+import time
+import sys
+
+class pubTopic:
+  #-----topics
+  
+  SUB_TOPIC = "NWS/#"
+  COMMAND_TOPIC = "NWS/CRH/ILX/COOP/URBI2/COMMAND"
+  TEMP_PUB_TOPIC = "NWS/CRH/ILX/COOP/URBI2/TEMP"
+  PRECIP_PUB_TOPIC = "NWS/CRH/ILX/COOP/URBI2/PRECIP"
+  DAILY_PUB_TOPIC = "NWS/CRH/ILX/COOP/URBI2/DAILY"
+  MESSAGE_TOPIC = "NWS/CRH/ILX/COOP/URBI2/MSG"
+  UPDATE_TOPIC = "NWS/CRH/ILX/COOP/URBI2/UPDATE"
+  ALERT_TOPIC = "NWS/CRH/ILX/COOP/URBI2/ALERT"
+  clientID = "URBI2"
+  clientTZ = "-6"
+  atOb_T = "0"
+  server_Address = "sftp.crh.noaa.gov"

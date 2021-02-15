@@ -1,0 +1,18 @@
+import time
+import sys
+
+class pubTopic:
+  #-----topics
+  
+  SUB_TOPIC = "NWS/#"
+  COMMAND_TOPIC = "NWS/WRH/MTR/COOP/GILC1/COMMAND"
+  TEMP_PUB_TOPIC = "NWS/WRH/MTR/COOP/GILC1/TEMP"
+  PRECIP_PUB_TOPIC = "NWS/WRH/MTR/COOP/GILC1/PRECIP"
+  DAILY_PUB_TOPIC = "NWS/WRH/MTR/COOP/GILC1/DAILY"
+  MESSAGE_TOPIC = "NWS/WRH/MTR/COOP/GILC1/MSG"
+  UPDATE_TOPIC = "NWS/WRH/MTR/COOP/GILC1/UPDATE"
+  ALERT_TOPIC = "NWS/WRH/MTR/COOP/GILC1/ALERT"
+  clientID = "GILC1"
+  clientTZ = "-8"
+  atOb_T = "16"
+  server_Address = "sftp.crh.noaa.gov"

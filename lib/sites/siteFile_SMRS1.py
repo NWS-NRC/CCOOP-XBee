@@ -1,0 +1,18 @@
+import time
+import sys
+
+class pubTopic:
+  #-----topics
+  
+  SUB_TOPIC = "NWS/#"
+  COMMAND_TOPIC = "NWS/ERH/CAE/COOP/SMRS1/COMMAND"
+  TEMP_PUB_TOPIC = "NWS/ERH/CAE/COOP/SMRS1/TEMP"
+  PRECIP_PUB_TOPIC = "NWS/ERH/CAE/COOP/SMRS1/PRECIP"
+  DAILY_PUB_TOPIC = "NWS/ERH/CAE/COOP/SMRS1/DAILY"
+  MESSAGE_TOPIC = "NWS/ERH/CAE/COOP/SMRS1/MSG"
+  UPDATE_TOPIC = "NWS/ERH/CAE/COOP/SMRS1/UPDATE"
+  ALERT_TOPIC = "NWS/ERH/CAE/COOP/SMRS1/ALERT"
+  clientID = "SMRS1"
+  clientTZ = "-5"
+  atOb_T = "8"
+  server_Address = "sftp.crh.noaa.gov"
